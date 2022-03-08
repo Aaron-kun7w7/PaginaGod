@@ -11,7 +11,6 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
 }
-
 .header{
     display: flex;
     justify-content: center;
@@ -107,4 +106,43 @@ body {
          display: flex;
         flex-direction: column;
         align-items: center;
+        }
+
+        .content{ /*Css para colocar lasn target*/
+            position: absolute;
+            bottom: -200px;
+            left: 18rem;
+        }
+
+        .btn{
+            
+        }
+
+        .btc{
+        background-color: darkorange;
+        }
+
+        .eth{
+            background-color: lightgray;
+            font: bold;
+        }
+       
+        .End{
+            position: absolute;
+            right: 300px;
+            padding: 6rem;
+            
+        }
+
+        .additons{
+            position: absolute;
+            right: 550px;
+            padding: 2rem;
+        }
+
+        .End2{
+            position: absolute;
+            right: 400px;
+            bottom: -850px;
+            
         }
