@@ -1,0 +1,110 @@
+:root{
+    --oscuro: #212121;
+    --blanco: #ffffff;
+    --secundario: #0097A7;
+
+    --fuentePrincipal: 'Roboto', bold;
+}
+
+body {
+    background-color: var(--oscuro);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+.nav-bg{
+    background-color: var(--oscuro);
+}
+
+.navegacion {
+    background-color: var(--oscuro);
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem; 
+}
+
+@media (min-width:768px) {
+    .navegacion {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.navegacion a{
+    padding: 1rem 2rem;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    gap: 4rem; 
+    font: var(--fuentePrincipal);
+}
+
+.navegacion a:hover {
+    background-color: var(--secundario);
+    color: var(--oscuro);
+}
+.navegacion a:last-of-type {
+    margin-bottom:0;
+}
+@media (min-width:768px) {
+    .navegacion a{
+        margin-bottom: 0;
+    }
+}
+.contenedor {
+    margin: 0 auto;
+    max-width: 1000px;
+    position: relative;
+    
+}
+
+.Logo{
+    height: 100px;
+    margin-bottom: -3rem;
+}
+
+.slider{
+    width: 90%;
+    height: 200px;
+    position: relative;
+}
+
+.contenido{
+    position: absolute;
+   /* bottom: -100px;*/
+    left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1s{
+    position: absolute;
+    font: var(--fuentePrincipal);
+    color: var(--blanco);
+     bottom: 500px;
+    left: -1.5rem;
+    font-size: 2.5rem;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .h2s{
+        position: absolute;
+        font: var(--fuentePrincipal);
+        color: var(--blanco);
+         bottom: 400px;
+        left: -34.5rem;
+        font-size: 2rem;
+         display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
