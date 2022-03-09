@@ -284,3 +284,15 @@ bottom: 90%;
     left: -5rem;
     bottom: 25%;
 }
+
+.contenedor__main{
+    position: absolute;
+    bottom: 30%;
+    left: 40%;
+}
+
+.titul{
+    position: absolute;
+    bottom: 83%;
+    left: 45%;
+}
